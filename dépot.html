@@ -126,7 +126,7 @@ animation-timing-function: linear;
 #nav a:hover{ color:#333333}
 </style>
 <div id="nav">
-<div class="block"><a href="/">maison</a></div>
+<div class="block"><a href="index.html">maison</a></div>
 <div class="block"><a href="contact.html">Contacts</a></div>
 <div class="block"><a href="propos.html">À propos</a></div>
 </div>	
@@ -180,8 +180,8 @@ body{background-image:url; background-position:center; background-size:150% 100%
 	<div><a href="surfant.html"> <span>Surfant</span> </a> </div>
 	<!----><div><a href="prime.html"> <span>Prime</span> </a> </div>
 	<div><a href="recharger.html"> <span>Recharger</span> </a></div>
-	<div><a href="?pages=payout"> <span>payer</span> </a></div>
-	<div><a href="?pages=ref"> <span>Partenaires</span> </a></div>
+	<div><a href="payer.html"> <span>payer</span> </a></div>
+	<div><a href="partenaires.html"> <span>Partenaires</span> </a></div>
 	<div><a href="index.html"> <span>Sortie</span> </a></div>
 </div>
 
@@ -294,10 +294,10 @@ body{background-image:url; background-position:center; background-size:150% 100%
 </style>
 
 <div id="help" style="display:none; margin-bottom:30px;">
-<h3 style="margin-bottom:25px; border-bottom:1px solid #CCCCCC">Индикатор активности</h3>
+<h3 style="margin-bottom:25px; border-bottom:1px solid #CCCCCC">Indicateur d’activité</h3>
 
-<div style="text-align:left"><b>Активность</b> - используется чтобы предотвратить Скам или обнуление системы. 
-Каждый зарегистрированный участpseudo имеет свою активность и сумму выплаты. Наш программный алгоритм автоматически расчитывает процент начисления за какое-либо действие. Чем выше процент, тем больше Somme выплаты. Рефоводы или активные вкладчики имеют самый высокий прирост ативности.
+<div style="text-align:left"><b>Activité</b> - Utilisé pour prévenir les escroqueries ou les réinitialisations du système. 
+Chaque participant inscrit a sa propre activité et son propre montant de paiement. Notre algorithme logiciel calcule automatiquement le pourcentage d’accumulation pour toute action. Plus le pourcentage est élevé, plus le paiement de la Somme est élevé. Les référents ou les épargnants actifs ont la plus forte augmentation de l’ativité.
 </div>
 
 <br />
@@ -305,45 +305,45 @@ body{background-image:url; background-position:center; background-size:150% 100%
 
 
 
-<h4 style="margin-bottom:15px">Как увеличивается активность?</h4>
+<h4 style="margin-bottom:15px">Comment l’activité augmente?</h4>
 
 
 <div style="text-align:left">
 
-<div class="g">Регистрация</div>
+<div class="g">Inscription</div>
 <div class="text">
-Немного активности выдаётся при регистрации на нашем проекте.
+Une petite activité est donnée lors de l’inscription sur notre projet.
 </div>
 
-<div class="g">Пополнение</div> 
+<div class="g">Réapprovisionnement</div> 
 <div class="text">
-Пополнение Dépôtа увеличивает Tonу активность, чем чаще и больше вы пополняете, тем выше поднимается активность. (значительное увеличение).
+Le réapprovisionnement de Dépôt augmente l’activité, plus vous vous réapprovisionnez souvent et plus, plus l’activité augmente. (augmentation significative).
 </div>
 
-<div class="g">Ежедневно</div>
+<div class="g">Quotidien</div>
 <div class="text">
-Ежедневное посещение Compteа увеличивает активность.
+La visite quotidienne à Comptea augmente l’activité.
 </div>
 
-<div class="g">Пополнение - Партнёры</div>
+<div class="g">Réapprovisionnement - Partenaires</div>
 <div class="text">
-За каждое пополнение Dépôtа Tonм рефералом. (значительное увеличение).
+Pour chaque réapprovisionnement de la référence Dépôt Tonm. (augmentation significative).
 </div>
 
 <!--<div class="g">Surfant</div>
 <div class="text">
-За Tonе посещение сайта в Surfantе.
+À propos de la visite du site Tone à Surfant.
 </div>
 
-<div class="g">Surfant - Партнёры</div>
+<div class="g">Surfant - Partenaires</div>
 <div class="text">
-За посещение сайта в Surfantе Tonм рефералом.
+Pour visiter le site en référence.
 </div>-->
 
 
 </div>
 
-<p align="center" style="font-size:16px">При выводе средств, процент активности снижается от размера выводимой суммы.</p>
+<p align="center" style="font-size:16px">Lors du retrait de fonds, le pourcentage d’activité diminue par rapport à la taille du montant retiré.</p>
 
 </div>
 <!---------------------------------------------------------------------------------------------------------------->
@@ -362,7 +362,7 @@ body{background-image:url; background-position:center; background-size:150% 100%
 	</span>	
 	
 	 </td>
-    <td> <div id="knp" style=" width:250px;" onclick="send('payeer');"><a href="#">Вывести</a></div>	</td>
+    <td> <div id="knp" style=" width:250px;" onclick="send('payeer');"><a href="#">Déduire</a></div>	</td>
   </tr>
 </table>
 </div>
@@ -417,11 +417,11 @@ function send(ps)
 
 
 <div id="calik">
-	<div>Счёт для выплат: <span class="hour"> P00000000</span> </div>
-	<div>Минимальная выплата: <span class="notranslate"> 1.00 <b class="notranslate">$</b> </span> </div>
-	<div>Поступление средств: <span> Автоматическое</span> </div>
-	<div>Комиссия на вывод: <span class="notranslate"> 0%</span> </div>
-	<!--<div>Всего PAYÉ: <span class="notranslate"> 0.00 <b class="notranslate">$</b> </span> </div>-->
+	<div>Compte de paiement: <span class="hour"> P00000000</span> </div>
+	<div>Paiement minimum: <span class="notranslate"> 1.00 <b class="notranslate">$</b> </span> </div>
+	<div>Réception des fonds: <span> Automatique</span> </div>
+	<div>La Commission doit conclure: <span class="notranslate"> 0%</span> </div>
+	<!--<div>Complètement PAYÉ: <span class="notranslate"> 0.00 <b class="notranslate">$</b> </span> </div>-->
 </div>
 
 <!----------------------------------------------------><br />
@@ -460,12 +460,12 @@ function send(ps)
 
 <table width="100%" border="0" id="tab">
   <tr>
-  	<td colspan="5" id="tab_head">История выплат</td>
+  	<td colspan="5" id="tab_head">Historique des paiements</td>
   </tr>
   <tr id="tab_menu" align="left">
 	<td width="21%">date</td>
 	<td width="20%">Chemin</td>
-	<td width="24%">Счёт</td>
+	<td width="24%">Compte</td>
 	<td width="21%">REVENU</td>
 	<td width="14%">Statut</td>	
   </tr>
